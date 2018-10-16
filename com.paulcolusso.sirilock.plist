@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/usr/local/bin</string>
+  </dict>
+  <key>KeepAlive</key>
+  <dict>
+    <key>SuccessfulExit</key>
+    <true/>
+  </dict>
+  <key>Label</key>
+  <string>com.paulcolusso.sirilock</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>node</string>
+    <string>server.js</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>StandardErrorPath</key>
+  <string>~/Developer/SiriLock/err.log</string>
+  <key>StandardOutPath</key>
+  <string>~/Developer/SiriLock/out.log</string>
+  <key>WorkingDirectory</key>
+  <string>~/Developer/SiriLock</string>
+</dict>
+</plist>
